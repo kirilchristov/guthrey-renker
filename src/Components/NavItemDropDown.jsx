@@ -5,12 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const NavItemDropDown = (props) => {
-
-
   return (
     <li className="nav-item dropdown p-0">
       <a
-        className="nav-link dropdown-toggle p-3"
+        className="nav-link dropdown-toggle py-3 pl-2 pr-2"
         href="#temp"
         id="navbarDropdown"
         role="button"
@@ -18,8 +16,7 @@ const NavItemDropDown = (props) => {
         aria-haspopup="true"
         aria-expanded="false"
       >
-        {props.title.toUpperCase()}{" "}
-        <FontAwesomeIcon icon={faAngleDown}/>
+        {props.title.toUpperCase()} <FontAwesomeIcon icon={faAngleDown} />
       </a>
       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
         {props.subtitles.map((subtitle) => (
