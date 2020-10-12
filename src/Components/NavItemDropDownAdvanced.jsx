@@ -30,7 +30,7 @@ const NavItemDropDownAdvanced = (props) => {
         aria-expanded="false"
       >
         {props.title.toUpperCase()}{" "}
-        <FontAwesomeIcon icon={faAngleDown} style={{ color: "white" }} />
+        <FontAwesomeIcon icon={faAngleDown}/>
       </a>
       <div
         className={`${isMobile ? "dropdown-menu" : "dropdown-menu advanced"}`}
