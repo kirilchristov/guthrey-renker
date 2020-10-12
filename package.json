@@ -1,6 +1,6 @@
 {
-  "home":"https://kirilchristov.github.io/guthrey-renker",
-  "name": "guthrey-renker",
+  "homepage":"https://kirilchristov.github.io/guthrey-renker",
+  "name": "renker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
