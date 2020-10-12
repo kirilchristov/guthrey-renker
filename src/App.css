@@ -1,21 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: white;
+  background-color: grey;
 }
 
 /* ! ----------------NAVBAR AND DROPDOWN--------------------------------- */
 /* Fixes added extra padding from bootstrap on mobile*/
-.navbar {
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
-}
 
 /* Centers the main container - we don't use the regular boostrap one */
 .wrapper {
   width: 1280px;
   margin: 0 auto;
 }
-.main-container {
+.nav-main-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,6 +48,24 @@ body {
   justify-content: center;
 }
 
+/* *----------test THIS WORKS - MAKE MEDIA QUERY */
+          .navbar-expand-lg .navbar-collapse {
+            margin: -7px;
+          }
+
+          .navbar-nav > li {
+            padding: 10px 10px !important;
+            content: "";
+            color: white;
+          }
+
+          .navbar-nav > li:hover {
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+          }
+
+          /* *---------- end test */
+
 .navbar-toggler {
   border: none;
   background-color: rgb(230, 74, 7);
@@ -64,23 +78,38 @@ body {
 }
 
 /* DropDown */
+/* .navbar-nav > li::before {
+  content: "|";
+  color: white;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}  */
 
 .nav-link {
   color: white !important;
   font-weight: 700;
-  padding-right: 20px !important;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .nav-item {
   z-index: 1000;
 }
 
+/* Adds a divider */
+/* .nav-link::before {
+  content: "";
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-right: 20px;
+} */
+
 .dropdown-menu {
   width: 260px;
   box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
   border-radius: 0;
   border: none;
-  padding: 0 !important;
+  /* padding: 0 !important; */
 }
 
 /** Dropdown single item */
@@ -100,13 +129,6 @@ body {
 .dropdown-item:hover {
   background-color: rgb(232, 72, 6);
   color: white;
-}
-
-/* Adds a divider */
-.nav-link::before {
-  content: "";
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  padding-right: 20px;
 }
 
 /* Social Icons Bar */
@@ -205,7 +227,6 @@ body {
 .main-left {
   height: 727px;
   width: 100%;
-
 }
 
 .right-top {
@@ -231,11 +252,11 @@ body {
   position: absolute;
   color: white;
   line-height: normal;
-
 }
 
 .caption-left {
-  top: 77%;
+  z-index: 2;
+  top: 67%;
   left: 8%;
   width: 85%;
   font-weight: 700;
@@ -245,7 +266,7 @@ body {
 .caption-right-top {
   z-index: 2;
   position: absolute;
-  top: 48%;
+  top: 42%;
   left: 7%;
   width: 95%;
   font-weight: 700;
@@ -258,13 +279,40 @@ body {
   color: white;
   line-height: normal;
   position: absolute;
-  top: 80%;
+  top: 74%;
   left: 7%;
   width: 85%;
   font-weight: 700;
   font-size: 27px;
 }
 
+/* Tag buttons */
+
+.tag {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#health {
+  background-color: rgb(106, 33, 620);
+}
+
+#lifestyle {
+  background-color: rgb(233, 145, 1);
+}
+
+#fashion {
+  background-color: rgb(219, 23, 146);
+}
 
 /* ! -----------------------MEDIA SCREEN -------------------------------------- */
 
@@ -275,7 +323,6 @@ body {
 }
 
 @media only screen and (max-width: 990px) {
-
   /* Fixes bootrstap behaviour of pushing down */
   .social-links {
     position: absolute;
@@ -300,5 +347,10 @@ body {
     margin-top: 0;
     width: 100%;
     box-shadow: none;
+  }
+
+  .navbar-nav > li {
+    padding: 0!important;
+
   }
 }

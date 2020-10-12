@@ -8,9 +8,9 @@ const NavItemDropDown = (props) => {
 
 
   return (
-    <li className="nav-item dropdown">
+    <li className="nav-item dropdown p-0">
       <a
-        className="nav-link dropdown-toggle"
+        className="nav-link dropdown-toggle p-3"
         href="#temp"
         id="navbarDropdown"
         role="button"

@@ -21,7 +21,7 @@ const NavItemDropDownAdvanced = (props) => {
   return (
     <li className="nav-item dropdown">
       <a
-        className="nav-link dropdown-toggle"
+        className="nav-link dropdown-toggle p-3"
         href="#temp"
         id="navbarDropdown"
         role="button"

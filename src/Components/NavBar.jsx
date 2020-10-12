@@ -9,7 +9,7 @@ const NavBar = (props) => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-light">
         <div className="wrapper">
-          <div className="main-container">
+          <div className="nav-main-container">
             <button
               className="navbar-toggler"
               type="button"

@@ -5,7 +5,7 @@
     "author": "John Wick",
     "image": "/assets/image1.jpg",
     "date": "2020-08-20T10:50:04 +07:00",
-    "tags": ["Fashion", "Lifestyle"]
+    "tags": ["fashion", "lifestyle"]
   },
   {
     "_id": "5f81c0791c1cbca55e0203f1",
@@ -13,7 +13,7 @@
     "author": "John Wick",
     "image": "/assets/image1.png",
     "date": "2020-08-20T10:01:25 +07:00",
-    "tags": ["Lifestyle"]
+    "tags": ["lifestyle"]
   },
   {
     "_id": "5f81c079191c83dff260a011",
