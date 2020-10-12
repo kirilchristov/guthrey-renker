@@ -4,7 +4,7 @@
     "title": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
     "author": "John Wick",
     "image": "/assets/image1.jpg",
-    "date": "2020-08-20T10:50:04 +07:00",
+    "date": "20,July 2020",
     "tags": ["fashion", "lifestyle"]
   },
   {
@@ -12,7 +12,7 @@
     "title": "Sed ut perspiciatis unde voluptatem",
     "author": "John Wick",
     "image": "/assets/image1.png",
-    "date": "2020-08-20T10:01:25 +07:00",
+    "date": "20,July 2020",
     "tags": ["lifestyle"]
   },
   {
@@ -20,7 +20,7 @@
     "title": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
     "author": "John Wick",
     "image": "/assets/image2.png",
-    "date": "2020-08-20T03:27:44 +07:00",
+    "date": "20,July 2020",
     "tags": ["health"]
   }
 ]
